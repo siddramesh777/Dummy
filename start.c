@@ -20,13 +20,13 @@ switch(ch)
 case 1: execl("/home/sys1/project_case/ddd/input","./input" ,argv[1] ,argv[2] ,argv[3], NULL);
 	break;
 	
-case 2: execl("./sem",NULL);
+case 2: execl("/home/sys1/project_case/ddd/sem,"./sem",NULL);
 	break;
 	
-case 3: execl("./pred",NULL);
+case 3: execl("/home/sys1/project_case/ddd/pred","./pred",NULL);
 	break;
 
-case 4: execl("./cli",NULL);
+case 4: execl("/home/sys1/project_case/ddd/cli","./cli",NULL);
 	break;
 	
 case 5: printf("\nprogram terminated successfully\n");
